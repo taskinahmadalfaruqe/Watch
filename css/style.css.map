@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"style.css"}
+{"version":3,"sources":["../scss/component/_nave.scss","../scss/variable/_variable.scss","style.css"],"names":[],"mappings":"AACA;EACI,mBCFW;ACEf","file":"style.css"}
