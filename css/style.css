@@ -1,3 +1,190 @@
-nav {
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  color: #FFF;
+  color: #737373;
+}
+
+ul, ol, li {
+  list-style: none;
+  display: inline-block;
+}
+
+a, a:hover, a:focus {
+  text-decoration: none;
+  display: inline-block;
+}
+
+img {
+  vertical-align: middle;
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 1320px;
+  margin: 0 auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  color: #FFF;
+  color: #737373;
+}
+
+ul, ol, li {
+  list-style: none;
+  display: inline-block;
+}
+
+a, a:hover, a:focus {
+  text-decoration: none;
+  display: inline-block;
+}
+
+img {
+  vertical-align: middle;
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 1320px;
+  margin: 0 auto;
+}
+
+header {
+  background: url(../images/banner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header .container nav {
+  padding: 50px 20px;
+}
+header .container nav .nav_bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 100px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+header .container nav .nav_bar .nav_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 100px;
+}
+header .container nav .nav_bar .nav_item ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 60px;
+}
+header .container nav .nav_bar .nav_item ul li a {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  text-align: left;
+  vertical-align: top;
+  color: #FFF;
+}
+header .container nav .nav_bar .nav_item button {
+  padding: 18px 32px;
+  background: #FFF;
+  border: 1px solid #000000;
+}
+header .container nav .nav_bar .nav_item button a {
+  font-style: bold;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  color: #FF5C00;
+}
+header #banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+header #banner .text {
+  width: 50%;
+  padding: 150px 0 260px;
+}
+header #banner .text .text_main h3 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.9em;
+  color: #FF5C00;
+}
+header #banner .text .text_main h1 {
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 90px;
+  color: #FFF;
+  margin: 20px 0;
+}
+header #banner .text .text_main p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFF;
+  margin-bottom: 30px;
+}
+header #banner .text button {
   background: #FF5C00;
+  padding: 18px 32px;
+  -webkit-box-shadow: 0px 10px 20px rgba(255, 92, 0, 0.2);
+          box-shadow: 0px 10px 20px rgba(255, 92, 0, 0.2);
+}
+header #banner .text button a {
+  color: #FFF;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+header #banner .image {
+  width: 50%;
+  position: relative;
+}
+header #banner .image img {
+  position: absolute;
+  top: 0;
+  right: -75px;
+  width: 85%;
 }/*# sourceMappingURL=style.css.map */

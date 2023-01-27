@@ -1,0 +1,32 @@
+@import '../variable/variable';
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: $ff;
+    font-size: 20px;
+    color: $White_color;
+    color: $Text_color;
+}
+ul,ol, li{
+    list-style: none;
+    display: inline-block;
+}
+a, a:hover, a:focus{
+    text-decoration: none;
+    display: inline-block;
+}
+img{
+    vertical-align: middle;
+    width: 100%;
+    height: auto;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+    // background: red;
+}
