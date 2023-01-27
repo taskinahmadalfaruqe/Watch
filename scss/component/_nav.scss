@@ -1,4 +1,5 @@
 @import "../variable/variable";
+@import "../mixin/mixin";
 
 header{
     background: url(../images/banner.jpg);
@@ -39,15 +40,8 @@ header{
                         }
                     }
                     button{
-                        padding: 18px 32px;
-                        background: $White_color;
-                        border: 1px solid $Heading_color;
                         a{
-                            font-style: bold;
-                            font-weight: 700;
-                            font-size: 20px;
-                            line-height: 100%;
-                            color: $Primary_color;
+                            @include common_btn($White_color , $Primary_color)
                         }
                     }
                 }
@@ -77,23 +71,12 @@ header{
                 margin: 20px 0;
             }
             p{
-                font-weight: 400;
-                font-size: 16px;
-                line-height: 24px;
-                color: $White_color;
-                margin-bottom: 30px;
-                padding-right: 95px;
+                @include paragraph(start);
             }
            }
-           button{
-            background: $Primary_color;
-            padding: 18px 32px;
-            box-shadow: 0px 10px 20px rgba(255, 92, 0, 0.2);
+           button{ 
             a{
-            color: $White_color;
-            font-weight: 700;
-            font-size: 20px;
-            line-height: 24px;
+                @include common_btn( $Primary_color , $White_color)
             }
            }
         }
@@ -103,9 +86,9 @@ header{
             // background: pink;
             img{
                 position: absolute;
-                top: 05px;
-                right: 00px;
-                width: 83%;
+                top: 5px;
+                right: 0px;
+                width: 90%;
             }
         }
     }

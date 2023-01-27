@@ -1,0 +1,28 @@
+@mixin common_btn($bg, $color){
+    padding: 18px 32px;
+    border: 2px solid $Heading_color;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    background: $bg;
+    color: $color;
+};
+
+@mixin comomon_hedding(){
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    color: $Heading_color;
+    margin: 0 0 20px;
+};
+
+@mixin paragraph($align){
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: $Text_color;
+    text-align: $align;
+    margin-bottom: 30px;
+}
