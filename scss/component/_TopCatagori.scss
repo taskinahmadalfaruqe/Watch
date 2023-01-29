@@ -1,0 +1,59 @@
+@import "../variable/variable";
+@import "../mixin/mixin";
+
+#top_catagori{
+    padding: 70px 0;
+    padding: 70px 0;
+    .container{
+        .product_main{
+            display: flex;
+            gap: 30px;
+            justify-content: space-between;
+            margin-top: 20px;
+            .product{
+                max-width: 275px;
+                padding:  0 0  35px 0;
+                transition: all linear .5s;
+                cursor: pointer;
+                .image{
+                    width: 275px;
+                    height: 275px;
+                    background: #ECEBEB;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    a{
+                        img{
+                            align-items: center;
+                        }
+                    }
+                }
+                .text{
+                    // background: red;
+                    text-align: center;
+                    box-shadow: 0px 15px 60px rgba(0, 0, 0, 0.2);
+                    h3{
+                        a{
+                            @include Headding_03;
+                        }
+                    }
+                    p{
+                        @include pricing;
+                    }
+                    span{
+                        // background: pink;
+                        margin-top: 10px;
+                        display: inline-block;
+                        i,svg{
+                            // background: red;
+                            color: $golden;
+                        }
+                    }
+                }
+             &:hover{
+                background: $Hover;
+            }
+            }
+        }
+    }
+}

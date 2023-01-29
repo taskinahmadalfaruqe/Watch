@@ -1,0 +1,43 @@
+@import "../variable/variable";
+@import "../mixin/mixin";
+
+#professional{
+    padding: 70px 0;
+    .container{
+        .profational_main{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            justify-content: space-between;
+            .text{
+                width: 50%;
+                // background: red;
+                .common_heading{
+                    margin: 0;
+                    h2{
+                        text-align: start;
+                    }
+                    p{
+                        text-align: start;
+                    }
+                }
+                button{
+                    a{
+                        @include common_btn($Primary_color , $White_color);
+                    }
+                }
+            }
+            .image{
+                width: 50%;
+                // background-color: pink;
+                margin: 0 auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                img{
+                    width: 75%;
+                }
+            }
+        }
+    }
+}

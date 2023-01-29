@@ -66,6 +66,7 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-bottom: 70px;
 }
 header .container nav {
   padding: 50px 20px;
@@ -180,7 +181,7 @@ header #banner .image img {
 
 #about {
   background: #FFF;
-  padding: 140px 0;
+  padding: 70px 0;
 }
 #about .container .about_main {
   width: 100%;
@@ -254,6 +255,7 @@ header #banner .image img {
   padding: 0 0 35px 0;
   -webkit-transition: all linear 0.5s;
   transition: all linear 0.5s;
+  cursor: pointer;
 }
 #product .container .product_main .product .text {
   text-align: center;
@@ -279,5 +281,128 @@ header #banner .image img {
   color: #454545;
 }
 #product .container .product_main .product:hover {
+  background: #FFF7F2;
+}
+
+#professional {
+  padding: 70px 0;
+}
+#professional .container .profational_main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+#professional .container .profational_main .text {
+  width: 50%;
+}
+#professional .container .profational_main .text .common_heading {
+  margin: 0;
+}
+#professional .container .profational_main .text .common_heading h2 {
+  text-align: start;
+}
+#professional .container .profational_main .text .common_heading p {
+  text-align: start;
+}
+#professional .container .profational_main .text button a {
+  padding: 18px 32px;
+  border: 2px solid #000000;
+  font-style: bold;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  background: #FF5C00;
+  color: #FFF;
+}
+#professional .container .profational_main .image {
+  width: 50%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#professional .container .profational_main .image img {
+  width: 75%;
+}
+
+#top_catagori {
+  padding: 70px 0;
+  padding: 70px 0;
+}
+#top_catagori .container .product_main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 20px;
+}
+#top_catagori .container .product_main .product {
+  max-width: 275px;
+  padding: 0 0 35px 0;
+  -webkit-transition: all linear 0.5s;
+  transition: all linear 0.5s;
+  cursor: pointer;
+}
+#top_catagori .container .product_main .product .image {
+  width: 275px;
+  height: 275px;
+  background: #ECEBEB;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#top_catagori .container .product_main .product .image a img {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#top_catagori .container .product_main .product .text {
+  text-align: center;
+  -webkit-box-shadow: 0px 15px 60px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 15px 60px rgba(0, 0, 0, 0.2);
+}
+#top_catagori .container .product_main .product .text h3 a {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  margin: 10px 0;
+}
+#top_catagori .container .product_main .product .text p {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #454545;
+}
+#top_catagori .container .product_main .product .text span {
+  margin-top: 10px;
+  display: inline-block;
+}
+#top_catagori .container .product_main .product .text span i, #top_catagori .container .product_main .product .text span svg {
+  color: #FFA800;
+}
+#top_catagori .container .product_main .product:hover {
   background: #FFF7F2;
 }/*# sourceMappingURL=style.css.map */
