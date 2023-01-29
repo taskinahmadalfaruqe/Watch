@@ -1,4 +1,5 @@
 @import '../variable/variable';
+@import "../mixin/mixin";
 
 *{
     margin: 0;
@@ -29,4 +30,20 @@ img{
     width: 1220px;
     margin: 0 auto;
     // background: red;
+}
+
+.common_heading{
+    max-width: 582px;
+    margin: 0 auto;
+    background: pink;
+    h2{
+        @include comomon_hedding(center);
+    }
+    p{
+        @include paragraph(center);
+    }
+}
+
+button{
+    border: none;
 }

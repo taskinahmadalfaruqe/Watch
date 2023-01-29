@@ -9,12 +9,13 @@
     color: $color;
 };
 
-@mixin comomon_hedding(){
+@mixin comomon_hedding($align){
     font-weight: 700;
     font-size: 40px;
     line-height: 40px;
     color: $Heading_color;
     margin: 0 0 20px;
+    text-align: $align;
 };
 
 @mixin paragraph($align){
@@ -25,4 +26,25 @@
     color: $Text_color;
     text-align: $align;
     margin-bottom: 30px;
+}
+
+@mixin Headding_03{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: $Heading_color;
+    margin: 10px 0;
+}
+@mixin Headding_05{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: $h5;
+    margin-top: 20px;
+}
+@mixin pricing{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: $h5;
 }

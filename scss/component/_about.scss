@@ -32,12 +32,12 @@
                 width: 50%;
                 // background: yellow;
                 padding-left: 50px;
-                .text{
+                .common_heading{
                     h2{
-                        @include comomon_hedding;
+                        text-align: start;
                     }
-                    p{@include paragraph(start);
-                        padding-right: 50px;
+                    p{
+                        text-align: start;
                     }
                 }
                 button{

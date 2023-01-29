@@ -1,0 +1,38 @@
+@import "../variable/variable";
+@import "../mixin/mixin";
+
+
+#product{
+    padding: 70px 0;
+    .container{
+        .product_main{
+            display: flex;
+            gap: 30px;
+            justify-content: space-between;
+            margin-top: 20px;
+            .product{
+                max-width: 274px;
+                box-shadow: 0px 15px 60px rgba(0, 0, 0, 0.2);
+                padding:  0 0  35px 0;
+                transition: all linear .5s;
+                .text{
+                    text-align: center;
+                    h5{
+                        @include Headding_05;
+                    }
+                    h3{
+                        a{
+                            @include Headding_03;
+                        }
+                    }
+                    p{
+                        @include pricing;
+                    }
+                }
+             &:hover{
+                background: $Hover;
+            }
+            }
+        }
+    }
+}
