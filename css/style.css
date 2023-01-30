@@ -407,7 +407,10 @@ header #banner .image img {
   background: #FFF7F2;
 }
 
-#testimonial .container .product_main {
+#testimonial {
+  margin: 70px 0;
+}
+#testimonial .container .test_main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -416,20 +419,36 @@ header #banner .image img {
           justify-content: space-between;
   -webkit-box-align: start;
       -ms-flex-align: start;
-          align-items: flex-start;
+          align-items: start;
 }
-#testimonial .container .product_main .product .image {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  background: pink;
+#testimonial .container .test_main .test_item {
+  margin: 10px 15px;
+  padding: 20px 0;
 }
-#testimonial .container .product_main .product .image a img {
+#testimonial .container .test_main .test_item .image {
+  height: 86px;
+  width: 86px;
+  border-radius: 50%;
+  margin: 0 auto;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+#testimonial .container .test_main .test_item .image a img {
   width: 100%;
 }
-#testimonial .container .product_main .product .text {
+#testimonial .container .test_main .test_item .text {
   text-align: center;
+  margin-bottom: 20px;
+}
+#testimonial .container .test_main .test_item .text h3 a {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  margin: 10px 0;
+}
+#testimonial .container .test_main .test_item .text span i, #testimonial .container .test_main .test_item .text span svg {
+  color: #FFA800;
 }/*# sourceMappingURL=style.css.map */

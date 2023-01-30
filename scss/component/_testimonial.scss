@@ -2,17 +2,26 @@
 @import "../mixin/mixin";
 
 #testimonial{
+    margin: 70px 0;
    .container{
-        .product_main{
+        .test_main{
             display: flex;
             justify-content: space-between;
-            align-items: flex-start;
+            align-items: start;
             // background: red;
-            .product{
+            .test_item{
+                margin: 10px 15px;
+                // background: yellow;
+                padding: 20px 0;
                 .image{
-                    display: flex;
-                    justify-content: center;
-                    background: pink;
+                    height: 86px;
+                    width: 86px;
+                    border-radius: 50%;
+                    margin: 0 auto;
+                    -webkit-border-radius: 50%;
+                    -moz-border-radius: 50%;
+                    -ms-border-radius: 50%;
+                    -o-border-radius: 50%;
                     a{
                         img{
                             width: 100%;
@@ -21,11 +30,15 @@
                 }
                 .text{
                     text-align: center;
+                    margin-bottom: 20px;
                     h3{
-                        a{}
+                        
+                        a{@include Headding_03;}
                     }
                     span{
-                        i,svg{}
+                        i,svg{
+                            color: $golden;
+                        }
                     }
                     p{
 
