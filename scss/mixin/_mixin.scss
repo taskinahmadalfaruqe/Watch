@@ -12,7 +12,7 @@
 @mixin comomon_hedding($align){
     font-weight: 700;
     font-size: 40px;
-    line-height: 40px;
+    line-height: 50px;
     color: $Heading_color;
     margin: 0 0 20px;
     text-align: $align;
@@ -35,6 +35,7 @@
     color: $Heading_color;
     margin: 10px 0;
 }
+
 @mixin Headding_05{
     font-weight: 700;
     font-size: 20px;
@@ -42,6 +43,7 @@
     color: $h5;
     margin-top: 20px;
 }
+
 @mixin pricing{
     font-weight: 700;
     font-size: 20px;

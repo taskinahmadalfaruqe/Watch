@@ -1,0 +1,55 @@
+@import "../variable/variable";
+@import "../mixin/mixin";
+#perfect{
+    background: $White_color;
+    padding: 70px 0;
+    .container{
+        padding: 0 50px;
+        // background: red;
+        .perfect_main{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: $Footer_color;
+            padding:50px;
+            .image{
+                width: 340px;
+                z-index: 1;
+                position: relative;
+                &::after{
+                    content: "";
+                    position: absolute;
+                    background: $Primary_color;
+                    width: calc(100% + 20px);
+                    height: 60%;
+                    bottom: -10px;
+                    left: -10px;
+                    z-index: -1;
+                }
+                img{
+                    width: 100%;
+                }
+            }
+            .text_main{
+                width: 540px;
+                .common_heading{
+                    h2{
+                        text-align: start;
+                        color: $White_color;
+                        padding-right: 100px;
+                    }
+                    p{
+                        text-align: start;
+                        color: $White_color;
+                    }
+                }
+                button{
+                    a{
+                        @include common_btn($Primary_color , $White_color)
+                    }
+                }
+            }
+        }
+    }
+}

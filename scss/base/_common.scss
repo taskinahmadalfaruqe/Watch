@@ -27,7 +27,7 @@ img{
     height: auto;
 }
 .container{
-    width: 1220px;
+    width: 1170px;
     margin: 0 auto;
     // background: red;
 }
@@ -35,7 +35,7 @@ img{
 .common_heading{
     max-width: 582px;
     margin: 0 auto;
-    background: pink;
+    // background: pink;
     h2{
         @include comomon_hedding(center);
     }

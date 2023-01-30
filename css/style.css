@@ -30,19 +30,18 @@ img {
 }
 
 .container {
-  width: 1220px;
+  width: 1170px;
   margin: 0 auto;
 }
 
 .common_heading {
   max-width: 582px;
   margin: 0 auto;
-  background: pink;
 }
 .common_heading h2 {
   font-weight: 700;
   font-size: 40px;
-  line-height: 40px;
+  line-height: 50px;
   color: #000000;
   margin: 0 0 20px;
   text-align: center;
@@ -440,7 +439,6 @@ header #banner .image img {
 }
 #testimonial .container .test_main .test_item .text {
   text-align: center;
-  margin-bottom: 20px;
 }
 #testimonial .container .test_main .test_item .text h3 a {
   font-weight: 700;
@@ -451,4 +449,76 @@ header #banner .image img {
 }
 #testimonial .container .test_main .test_item .text span i, #testimonial .container .test_main .test_item .text span svg {
   color: #FFA800;
+}
+#testimonial .container .test_main .test_item .text p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #737373;
+  text-align: center;
+  margin-bottom: 30px;
+  margin: 0;
+}
+
+#perfect {
+  background: #FFF;
+  padding: 70px 0;
+}
+#perfect .container {
+  padding: 0 50px;
+}
+#perfect .container .perfect_main {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #131313;
+  padding: 50px;
+}
+#perfect .container .perfect_main .image {
+  width: 340px;
+  z-index: 1;
+  position: relative;
+}
+#perfect .container .perfect_main .image::after {
+  content: "";
+  position: absolute;
+  background: #FF5C00;
+  width: calc(100% + 20px);
+  height: 60%;
+  bottom: -10px;
+  left: -10px;
+  z-index: -1;
+}
+#perfect .container .perfect_main .image img {
+  width: 100%;
+}
+#perfect .container .perfect_main .text_main {
+  width: 540px;
+}
+#perfect .container .perfect_main .text_main .common_heading h2 {
+  text-align: start;
+  color: #FFF;
+  padding-right: 100px;
+}
+#perfect .container .perfect_main .text_main .common_heading p {
+  text-align: start;
+  color: #FFF;
+}
+#perfect .container .perfect_main .text_main button a {
+  padding: 18px 32px;
+  border: 2px solid #000000;
+  font-style: bold;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  background: #FF5C00;
+  color: #FFF;
 }/*# sourceMappingURL=style.css.map */

@@ -30,7 +30,6 @@
                 }
                 .text{
                     text-align: center;
-                    margin-bottom: 20px;
                     h3{
                         
                         a{@include Headding_03;}
@@ -41,7 +40,8 @@
                         }
                     }
                     p{
-
+                        @include paragraph(center);
+                        margin: 0;
                     }
                 }
             }
