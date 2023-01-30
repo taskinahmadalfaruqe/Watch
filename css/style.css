@@ -408,6 +408,7 @@ header #banner .image img {
 
 #testimonial {
   margin: 70px 0;
+  position: relative;
 }
 #testimonial .container .test_main {
   display: -webkit-box;
@@ -459,6 +460,42 @@ header #banner .image img {
   text-align: center;
   margin-bottom: 30px;
   margin: 0;
+}
+#testimonial .slick-dots {
+  position: absolute;
+  bottom: -50px;
+  left: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+#testimonial .slick-dots button {
+  width: 10px;
+  height: 10px;
+  border: 1px solid #FFA800;
+  font-size: 0;
+  border-radius: 50%;
+  background: transparent;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+#testimonial .slick-dots .slick-active button {
+  border: 1px solid #FFA800;
+  background: #FFA800;
 }
 
 #perfect {

@@ -4,6 +4,10 @@ $(function(){
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 1000,
-        arrows: false,   
+        dots:true,
+        arrows:false,
+        focusOnSelect:true,
+        centerMode: true,
+        centerPadding: '0px',
     });
 })
