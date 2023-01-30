@@ -1,2 +1,54 @@
 @import "../variable/variable";
 @import "../mixin/mixin";
+
+#blog{
+    margin: 70px 0 50px;
+    .container{
+        .blog_main{
+            .common_heading{}
+            .blog_items{
+                display: flex;
+                gap: 20px;
+                justify-content: space-between;
+                align-items: center;
+                .blog_main{
+                    width: 375px;
+                    margin-bottom: 20PX;
+                    .image{}
+                    .text{
+                        text-align: center;
+                        h5{
+                            @include Headding_05;
+                            font-size: 16px
+                        }
+                        h3{
+                            a{
+                                @include Headding_03;
+                            }
+                        }
+                        div{
+                            a{
+                                color: $Text_color;
+                                position: relative;
+                                &::after{
+                                    content: "";
+                                    position: absolute;
+                                    left: 50%;
+                                    bottom: -10px;
+                                    height: 3px;
+                                    width: 80%;
+                                    background: $h5;
+                                    transform: translateX(-50%);
+                                    -webkit-transform: translateX(-50%);
+                                    -moz-transform: translateX(-50%);
+                                    -ms-transform: translateX(-50%);
+                                    -o-transform: translateX(-50%);
+}
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
