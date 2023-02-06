@@ -1,0 +1,30 @@
+@import "../variable/variable";
+@import "../mixin/mixin";
+
+footer{
+    background: $Footer_color;
+    .container{
+        .footer_main{
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        padding: 10px 0 0;
+        .f_icon{
+            .image{
+                img{}
+            }
+            .text{
+                p{}
+                .contect{
+                    ul{
+                        li{}
+                    }
+                }
+            }
+        }
+        .info{}
+        .help{}
+        .subscribe{}
+        }
+    }
+}
