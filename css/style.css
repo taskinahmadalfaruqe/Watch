@@ -618,6 +618,7 @@ header #banner .image img {
 
 footer {
   background: #131313;
+  padding: 140px 0 85px;
 }
 footer .container .footer_main {
   display: -webkit-box;
@@ -626,10 +627,9 @@ footer .container .footer_main {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: start;
-  padding: 10px 0 0;
+}
+footer .container .footer_main .f_icon {
+  width: 450px;
 }
 footer .container .footer_main .f_icon .image {
   width: 60%;
@@ -644,6 +644,7 @@ footer .container .footer_main .f_icon .text p {
   font-size: 16px;
   line-height: 19px;
   margin-bottom: 20px;
+  padding-right: 70px;
 }
 footer .container .footer_main .f_icon .text .contect ul li {
   font-family: "Inter", sans-serif;
@@ -663,6 +664,9 @@ footer .container .footer_main .f_icon .text .contect ul li a {
   font-size: 16px;
   line-height: 19px;
   margin-bottom: 10px;
+}
+footer .container .footer_main .info {
+  width: 300px;
 }
 footer .container .footer_main .info ul li {
   display: -webkit-box;
@@ -685,6 +689,9 @@ footer .container .footer_main .info ul li a h5 {
   line-height: 19px;
   margin-bottom: 50px;
 }
+footer .container .footer_main .help {
+  width: 300px;
+}
 footer .container .footer_main .help ul li {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -705,4 +712,106 @@ footer .container .footer_main .help ul li a h5 {
   font-size: 16px;
   line-height: 19px;
   margin-bottom: 50px;
+}
+footer .container .footer_main .subscribe {
+  width: 300px;
+}
+footer .container .footer_main .subscribe ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+footer .container .footer_main .subscribe ul li a h5 {
+  font-family: "Inter", sans-serif;
+  color: #FFF;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 50px;
+}
+footer .container .footer_main .subscribe p {
+  font-family: "Inter", sans-serif;
+  color: #FFF;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 20px;
+}
+footer .container .footer_main .subscribe form {
+  margin-bottom: 40px;
+}
+footer .container .footer_main .subscribe form input {
+  padding: 15px 20px;
+  width: 100%;
+}
+footer .container .footer_main .subscribe form input::-webkit-input-placeholder {
+  color: #FF5C00;
+  font-size: 15px;
+}
+footer .container .footer_main .subscribe form input::-moz-placeholder {
+  color: #FF5C00;
+  font-size: 15px;
+}
+footer .container .footer_main .subscribe form input:-ms-input-placeholder {
+  color: #FF5C00;
+  font-size: 15px;
+}
+footer .container .footer_main .subscribe form input::-ms-input-placeholder {
+  color: #FF5C00;
+  font-size: 15px;
+}
+footer .container .footer_main .subscribe form input::placeholder {
+  color: #FF5C00;
+  font-size: 15px;
+}
+footer .container .footer_main .subscribe .socila_icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+}
+footer .container .footer_main .subscribe .socila_icon a {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+footer .container .footer_main .subscribe .socila_icon a i,
+footer .container .footer_main .subscribe .socila_icon a svg {
+  font-size: 30px;
+}
+footer .container .footer_main .subscribe .socila_icon a:nth-child(1) {
+  background: blue;
+  color: #FFF;
+}
+footer .container .footer_main .subscribe .socila_icon a:nth-child(2) {
+  background: rgb(5, 181, 194);
+  color: #FFF;
+}
+footer .container .footer_main .subscribe .socila_icon a:nth-child(3) {
+  color: #FFF;
+  background: -webkit-gradient(linear, right bottom, left top, from(#405DE6), color-stop(#5B51D8), color-stop(#833AB4), color-stop(#C13584), color-stop(#E1306C), color-stop(#FD1D1D), color-stop(#F56040), color-stop(#F77737), color-stop(#FCAF45), to(#FFDC80));
+  background: linear-gradient(to top left, #405DE6, #5B51D8, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80);
+}
+footer .container .footer_main .subscribe .socila_icon a:nth-child(4) {
+  background: red;
+  color: #FFF;
 }/*# sourceMappingURL=style.css.map */
