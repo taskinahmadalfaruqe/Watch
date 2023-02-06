@@ -630,4 +630,37 @@ footer .container .footer_main {
       -ms-flex-align: start;
           align-items: start;
   padding: 10px 0 0;
+}
+footer .container .footer_main .f_icon .image {
+  width: 60%;
+}
+footer .container .footer_main .f_icon .image img {
+  margin-bottom: 30px;
+}
+footer .container .footer_main .f_icon .text p {
+  font-family: "Inter", sans-serif;
+  color: #FFF;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 20px;
+}
+footer .container .footer_main .f_icon .text .contect ul li {
+  font-family: "Inter", sans-serif;
+  color: #FFF;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+footer .container .footer_main .f_icon .text .contect ul li a {
+  font-family: "Inter", sans-serif;
+  color: #FFF;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 10px;
 }/*# sourceMappingURL=style.css.map */

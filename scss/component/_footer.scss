@@ -11,13 +11,39 @@ footer{
         padding: 10px 0 0;
         .f_icon{
             .image{
-                img{}
+                width: 60%;
+                img{
+                    margin-bottom: 30px;
+                }
             }
             .text{
-                p{}
+                p{
+                    font-family: $ff;
+                    color: $White_color;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 19px;
+                    margin-bottom: 20px;
+                }
                 .contect{
                     ul{
-                        li{}
+                        li{  
+                            font-family: $ff;
+                            color: $White_color;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 19px;
+                            margin-bottom: 10px;
+                            display: flex;
+                            a{
+                                font-family: $ff;
+                                color: $White_color;
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 19px;
+                                margin-bottom: 10px;
+                            }
+                        }
                     }
                 }
             }
