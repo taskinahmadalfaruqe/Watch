@@ -48,7 +48,30 @@ footer{
                 }
             }
         }
-        .info{}
+        .info{
+            ul{
+                li{
+                    
+                    display: flex;
+                    a{
+                        font-family: $ff;
+                        color: $White_color;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 19px;
+                        margin-bottom: 15px;
+                        h5{
+                            font-family: $ff;
+                            color: $White_color;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 19px;
+                            margin-bottom: 50px; 
+                        }
+                    }
+                }
+            }
+        }
         .help{}
         .subscribe{}
         }
