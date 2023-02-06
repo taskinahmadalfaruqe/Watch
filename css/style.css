@@ -684,4 +684,25 @@ footer .container .footer_main .info ul li a h5 {
   font-size: 16px;
   line-height: 19px;
   margin-bottom: 50px;
+}
+footer .container .footer_main .help ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+footer .container .footer_main .help ul li a {
+  font-family: "Inter", sans-serif;
+  color: #FFF;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 15px;
+}
+footer .container .footer_main .help ul li a h5 {
+  font-family: "Inter", sans-serif;
+  color: #FFF;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 50px;
 }/*# sourceMappingURL=style.css.map */
