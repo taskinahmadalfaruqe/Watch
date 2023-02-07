@@ -60,17 +60,20 @@ button {
   border: none;
 }
 
-header {
-  background: url(../images/banner.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-bottom: 70px;
+nav {
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
 }
-header .container nav {
-  padding: 50px 20px;
+nav .container {
+  padding: 50px 0;
 }
-header .container nav .nav_bar {
+nav .container .nav_bar {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -82,7 +85,7 @@ header .container nav .nav_bar {
       -ms-flex-align: center;
           align-items: center;
 }
-header .container nav .nav_bar .nav_item {
+nav .container .nav_bar .nav_item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -94,7 +97,7 @@ header .container nav .nav_bar .nav_item {
           align-items: center;
   gap: 100px;
 }
-header .container nav .nav_bar .nav_item ul {
+nav .container .nav_bar .nav_item ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -106,7 +109,7 @@ header .container nav .nav_bar .nav_item ul {
           align-items: center;
   gap: 60px;
 }
-header .container nav .nav_bar .nav_item ul li a {
+nav .container .nav_bar .nav_item ul li a {
   font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 16px;
@@ -115,7 +118,7 @@ header .container nav .nav_bar .nav_item ul li a {
   vertical-align: top;
   color: #FFF;
 }
-header .container nav .nav_bar .nav_item button a {
+nav .container .nav_bar .nav_item button a {
   padding: 18px 32px;
   border: 2px solid #000000;
   font-style: bold;
@@ -125,30 +128,42 @@ header .container nav .nav_bar .nav_item button a {
   background: #FFF;
   color: #FF5C00;
 }
-header #banner {
+nav .container .nav_bar .bars {
+  display: none;
+}
+
+#banner {
+  background: url(../images/banner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 100px;
+  margin-bottom: 70px;
+}
+#banner .container .banner_main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-header #banner .text {
+#banner .container .banner_main .text {
   width: 50%;
   padding: 150px 0 260px;
 }
-header #banner .text .text_main h3 {
+#banner .container .banner_main .text .text_main h3 {
   font-weight: 700;
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.9em;
   color: #FF5C00;
 }
-header #banner .text .text_main h1 {
+#banner .container .banner_main .text .text_main h1 {
   font-weight: 700;
   font-size: 70px;
   line-height: 90px;
   color: #FFF;
   margin: 20px 0;
 }
-header #banner .text .text_main p {
+#banner .container .banner_main .text .text_main p {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -157,7 +172,7 @@ header #banner .text .text_main p {
   text-align: start;
   margin-bottom: 30px;
 }
-header #banner .text button a {
+#banner .container .banner_main .text button a {
   padding: 18px 32px;
   border: 2px solid #000000;
   font-style: bold;
@@ -167,17 +182,15 @@ header #banner .text button a {
   background: #FF5C00;
   color: #FFF;
 }
-header #banner .image {
+#banner .container .banner_main .image {
   width: 50%;
-  position: relative;
+  transform: translateY(50px);
+  -webkit-transform: translateY(50px);
+  -moz-transform: translateY(50px);
+  -ms-transform: translateY(50px);
+  -o-transform: translateY(50px);
+  padding-left: 70px;
 }
-header #banner .image img {
-  position: absolute;
-  top: 5px;
-  right: 0px;
-  width: 90%;
-}
-
 #about {
   background: #FFF;
   padding: 70px 0;
