@@ -11,6 +11,7 @@ body {
   font-size: 20px;
   color: #FFF;
   color: #737373;
+  overflow-x: hidden;
 }
 
 ul, ol, li {
@@ -63,6 +64,7 @@ button {
 nav {
   top: 0;
   left: 50%;
+  width: 100%;
   transform: translateX(-50%);
   position: absolute;
   -webkit-transform: translateX(-50%);
@@ -71,19 +73,19 @@ nav {
   -o-transform: translateX(-50%);
 }
 nav .container {
-  padding: 50px 0;
+  padding: 50px 20px;
 }
 nav .container .nav_bar {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 100px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  gap: 50px;
 }
 nav .container .nav_bar .nav_item {
   display: -webkit-box;
@@ -130,6 +132,11 @@ nav .container .nav_bar .nav_item button a {
 }
 nav .container .nav_bar .bars {
   display: none;
+  cursor: pointer;
+}
+nav .container .nav_bar .bars i {
+  color: #FFF;
+  font-size: 35px;
 }
 
 #banner {
@@ -299,6 +306,9 @@ nav .container .nav_bar .bars {
 #professional {
   padding: 70px 0;
 }
+#professional .container {
+  padding: 0 10px;
+}
 #professional .container .profational_main {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -362,7 +372,7 @@ nav .container .nav_bar .bars {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-top: 20px;
+  padding: 0 20px;
 }
 #top_catagori .container .product_main .product {
   max-width: 275px;
@@ -409,7 +419,7 @@ nav .container .nav_bar .bars {
   color: #454545;
 }
 #top_catagori .container .product_main .product .text span {
-  margin-top: 10px;
+  padding: 10px 0 15px;
   display: inline-block;
 }
 #top_catagori .container .product_main .product .text span i, #top_catagori .container .product_main .product .text span svg {
@@ -430,11 +440,15 @@ nav .container .nav_bar .bars {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 #testimonial .container .test_main .test_item {
+  width: 280px;
   margin: 10px 15px;
   padding: 20px 0;
 }
@@ -475,24 +489,17 @@ nav .container .nav_bar .bars {
   margin: 0;
 }
 #testimonial .slick-dots {
-  position: absolute;
-  bottom: -50px;
-  left: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin: 0 auto;
+  gap: 20px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 20px;
-  transform: translateX(-50%);
-  -webkit-transform: translateX(-50%);
-  -moz-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  -o-transform: translateX(-50%);
 }
 #testimonial .slick-dots button {
   width: 10px;
@@ -590,7 +597,9 @@ nav .container .nav_bar .bars {
 }
 #blog .container .blog_main .blog_items .blog_main {
   width: 375px;
-  margin-bottom: 20PX;
+}
+#blog .container .blog_main .blog_items .blog_main .image {
+  width: 100%;
 }
 #blog .container .blog_main .blog_items .blog_main .text {
   text-align: center;
@@ -631,7 +640,7 @@ nav .container .nav_bar .bars {
 
 footer {
   background: #131313;
-  padding: 140px 0 85px;
+  padding: 100px 0 0px;
 }
 footer .container .footer_main {
   display: -webkit-box;
@@ -827,4 +836,59 @@ footer .container .footer_main .subscribe .socila_icon a:nth-child(3) {
 footer .container .footer_main .subscribe .socila_icon a:nth-child(4) {
   background: red;
   color: #FFF;
+}
+footer .f_copy {
+  background: #FF5C00;
+  width: 100%;
+  margin-top: 80px;
+  padding: 10px 0;
+}
+footer .f_copy .container .f_icon_main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+footer .f_copy .container .f_icon_main .text p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #737373;
+  text-align: start;
+  margin-bottom: 30px;
+  margin: 0;
+  color: #FFF;
+}
+footer .f_copy .container .f_icon_main .icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 30px;
+}
+footer .f_copy .container .f_icon_main .icon .image {
+  width: 65px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+footer .f_copy .container .f_icon_main .icon .image .img {
+  width: 80%;
 }/*# sourceMappingURL=style.css.map */

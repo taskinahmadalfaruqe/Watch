@@ -13,8 +13,9 @@
                 align-items: center;
                 .blog_main{
                     width: 375px;
-                    margin-bottom: 20PX;
-                    .image{}
+                    .image{
+                        width: 100%;
+                    }
                     .text{
                         text-align: center;
                         h5{

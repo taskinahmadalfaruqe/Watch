@@ -6,6 +6,7 @@ nav{
     // background: red;
     top: 0;
     left: 50%;
+    width: 100%;
     transform: translateX(-50%);
     position: absolute;
     -webkit-transform: translateX(-50%);
@@ -13,12 +14,12 @@ nav{
     -ms-transform: translateX(-50%);
     -o-transform: translateX(-50%);
     .container{
-        padding: 50px 0;
+        padding: 50px 20px;
     .nav_bar{
         display: flex;
-        gap: 100px;
         justify-content: space-between;
         align-items: center;
+        gap: 50px;
         .logo{
         }
         .nav_item{
@@ -51,6 +52,11 @@ nav{
         }
         .bars{
             display: none;
+            cursor: pointer;
+            i{
+                color: $White_color;
+                font-size: 35px;
+            }
         }
     }
    }

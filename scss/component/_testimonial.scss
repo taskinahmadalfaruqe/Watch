@@ -8,9 +8,12 @@
         .test_main{
             display: flex;
             justify-content: space-between;
-            align-items: start;
+            align-items: center;
+            width: 100%;
+            flex-wrap: wrap;
             // background: red;
             .test_item{
+                width: 280px;
                 margin: 10px 15px;
                 // background: yellow;
                 padding: 20px 0;
@@ -47,21 +50,14 @@
                 }
             }
         }
-   } 
+   }
    .slick-dots{
-    position: absolute;
-    bottom: -50px;
-    left: 50%;
     display: flex;
+    margin:  0 auto;
+    gap: 20px;
     justify-content: center;
     align-items: center;
-    gap: 20px;
-    transform: translateX(-50%);
-    -webkit-transform: translateX(-50%);
-    -moz-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    -o-transform: translateX(-50%);
-}
+    }
    .slick-dots button{
     width: 10px;
     height: 10px;
@@ -73,9 +69,9 @@
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
-}
+    }
    .slick-dots .slick-active button{
     border: 1px solid $golden;
     background: $golden;
-    }
+    } 
 }

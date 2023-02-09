@@ -3,7 +3,7 @@
 
 footer {
     background: $Footer_color;
-    padding: 140px 0 85px;
+    padding: 100px 0 0px;
     .container {
         .footer_main {
             display: flex;
@@ -171,6 +171,41 @@ footer {
                         &:nth-child(4) {
                             background: red;
                             color: $White_color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .f_copy{
+        background: $Primary_color;
+        width: 100%;
+        margin-top: 80px;
+        padding: 10px 0;
+        .container{
+            .f_icon_main{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .text{
+                    p{
+                        @include paragraph (start);
+                        margin: 0;
+                        color: $White_color;
+                    }
+                }
+                .icon{
+                    display: flex;
+                    justify-content: end;
+                    align-items: center;
+                    gap: 30px;
+                    .image{
+                        width: 65px;
+                        display: flex;
+                        justify-content: end;
+                        align-items: center;
+                        .img{
+                            width: 80%;
                         }
                     }
                 }
