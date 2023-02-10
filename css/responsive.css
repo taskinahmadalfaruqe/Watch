@@ -269,15 +269,15 @@
     }
     footer .container{
         width: 100%;
-        padding:0 20px ;
+        padding:0 10px ;
     }
     footer .container .footer_main {
         flex-wrap: wrap;
-        gap: 10px;
-        justify-content: center;
+        gap: 25px;
+        justify-content: space-between;
     }
     footer .container .footer_main .f_icon {
-        width: 200px;
+        width: 150px;
     }
     footer .container .footer_main .f_icon .image {
         width: 50%;
@@ -292,37 +292,36 @@
     }
 
     footer .container .footer_main .info {
-        width: 200px;
-        justify-content: end;
+        width: 150px;
     }
     footer .container .footer_main .info ul li a h5 {
         margin-bottom: 20px;
-        font-size: 30px;
+        font-size: 22px;
         font-weight: 600;
     }
 
 
 
     footer .container .footer_main .help {
-        width: 200px;
+        width: 150px;
     }
     footer .container .footer_main .help ul li a h5 {
         margin-bottom: 20px;
-        font-size: 30px;
+        font-size: 22px;
         font-weight: 600;
     }
 
 
 
     footer .container .footer_main .subscribe {
-        width: 200px;
+        width: 150px;
     }
     footer .container .footer_main .subscribe p {
         font-size: 14px;
     }
     footer .container .footer_main .subscribe ul li a h5 {
         margin-bottom: 20px;
-        font-size: 30px;
+        font-size: 22px;
         font-weight: 600;
     }
     footer .container .footer_main .subscribe form {
@@ -333,11 +332,11 @@
         width: 100%;
     }
     footer .container .footer_main .subscribe .socila_icon a {
-        height: 30px;
-        width: 30px;
+        height: 25px;
+        width: 25px;
     }
     footer .container .footer_main .subscribe .socila_icon a i, footer .container .footer_main .subscribe .socila_icon a svg {
-        font-size: 18px;
+        font-size: 15px;
     }
 
 
@@ -641,106 +640,108 @@
     /* OUR BLOG PART END */
 
 
-    /* FOOTER PART START */
-    footer{
-        padding: 0;
-        padding: 40px 0;
-        margin: 0;
-    }
-    footer .container{
-        width: 100%;
-        padding:0 20px ;
-    }
-    footer .container .footer_main {
-        flex-wrap: wrap;
-        gap: 10px;
-        justify-content: center;
-    }
-    footer .container .footer_main .f_icon {
-        width: 250px;
-    }
-    footer .container .footer_main .f_icon .image {
-        width: 50%;
-        padding: 0;
-    }
-    footer .container .footer_main .f_icon .text p {
-        font-size: 14px;
-        padding-right: 0;
-    }
-    footer .container .footer_main .f_icon .text .contect ul li {
-        font-size: 14px;
-    }
+/* FOOTER PART START */
+footer{
+    padding: 0;
+    padding: 40px 0;
+    margin: 0;
+}
+footer .container{
+    width: 100%;
+    padding:0 20px ;
+}
+footer .container .footer_main {
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: space-between;
+}
+footer .container .footer_main .f_icon {
+    width: 150px;
+}
+footer .container .footer_main .f_icon .image {
+    width: 50%;
+    padding: 0;
+}
+footer .container .footer_main .f_icon .text p {
+    font-size: 14px;
+    padding-right: 0;
+}
+footer .container .footer_main .f_icon .text .contect ul li {
+    font-size: 14px;
+}
 
-    footer .container .footer_main .info {
-        width: 250px;
-        justify-content: end;
-    }
-    footer .container .footer_main .info ul li a h5 {
-        margin-bottom: 20px;
-        font-size: 25px;
-        font-weight: 600;
-    }
-
-
-
-    footer .container .footer_main .help {
-        width: 250px;
-    }
-    footer .container .footer_main .help ul li a h5 {
-        margin-bottom: 20px;
-        font-size: 25px;
-        font-weight: 600;
-    }
+footer .container .footer_main .info {
+    width: 150px;
+}
+footer .container .footer_main .info ul li a h5 {
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: 600;
+}
 
 
 
-    footer .container .footer_main .subscribe {
-        width: 250px;
-    }
-    footer .container .footer_main .subscribe p {
-        font-size: 14px;
-    }
-    footer .container .footer_main .subscribe ul li a h5 {
-        margin-bottom: 20px;
-        font-size: 25px;
-        font-weight: 600;
-    }
-    footer .container .footer_main .subscribe form {
-        margin-bottom: 15px;
-    }
-    footer .container .footer_main .subscribe form input {
-        padding: 7px 10px;
-        width: 100%;
-    }
-    footer .container .footer_main .subscribe .socila_icon a {
-        height: 30px;
-        width: 30px;
-    }
-    footer .container .footer_main .subscribe .socila_icon a i, footer .container .footer_main .subscribe .socila_icon a svg {
-        font-size: 18px;
-    }
+footer .container .footer_main .help {
+    width: 150px;
+}
+footer .container .footer_main .help ul li a h5 {
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: 600;
+}
 
 
-    footer .f_copy {
-        margin-top: 40px;
-    }
-    footer .f_copy .container .f_icon_main .text {
-        /* background: red; */
-        width: 45%;
-    }
-    footer .f_copy .container .f_icon_main .text p {
-        font-size: 14px;
-        text-align: center;
-    }
-    footer .f_copy .container .f_icon_main .icon {
-        /* background: red; */
-        width: 55%;
-        gap: 15px;
-    }
-    footer .f_copy .container .f_icon_main .icon .image {
-        width: 45px;
-    }
-    /* FOOTER PART END */
+
+footer .container .footer_main .subscribe {
+    width: 150px;
+}
+footer .container .footer_main .subscribe p {
+    font-size: 14px;
+}
+footer .container .footer_main .subscribe ul li a h5 {
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: 600;
+}
+footer .container .footer_main .subscribe form {
+    margin-bottom: 15px;
+}
+footer .container .footer_main .subscribe form input {
+    padding: 7px 10px;
+    width: 100%;
+}
+footer .container .footer_main .subscribe .socila_icon{
+    gap: 15px;
+}
+footer .container .footer_main .subscribe .socila_icon a {
+    height: 25px;
+    width: 25px;
+}
+footer .container .footer_main .subscribe .socila_icon a i, footer .container .footer_main .subscribe .socila_icon a svg {
+    font-size: 15px;
+}
+
+
+footer .f_copy {
+    margin-top: 40px;
+}
+footer .f_copy .container .f_icon_main .text {
+    /* background: red; */
+    width: 35%;
+}
+footer .f_copy .container .f_icon_main .text p {
+    font-size: 14px;
+    text-align: center;
+}
+footer .f_copy .container .f_icon_main .icon {
+    /* background: red; */
+    width: 65%;
+    gap: 15px;
+}
+footer .f_copy .container .f_icon_main .icon .image {
+    width: 37px;
+}
+/* FOOTER PART END */
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) { 
@@ -997,10 +998,10 @@
     footer .container .footer_main {
         flex-wrap: wrap;
         gap: 40px;
-        justify-content: center;
+        justify-content: space-between;
     }
     footer .container .footer_main .f_icon {
-        width: 300px;
+        width: 150px;
     }
     footer .container .footer_main .f_icon .image {
         width: 50%;
@@ -1015,37 +1016,36 @@
     }
 
     footer .container .footer_main .info {
-        width: 300px;
-        justify-content: end;
+        width: 150px;
     }
     footer .container .footer_main .info ul li a h5 {
         margin-bottom: 20px;
-        font-size: 25px;
+        font-size: 22px;
         font-weight: 600;
     }
 
 
 
     footer .container .footer_main .help {
-        width: 300px;
+        width: 150px;
     }
     footer .container .footer_main .help ul li a h5 {
         margin-bottom: 20px;
-        font-size: 25px;
+        font-size: 22px;
         font-weight: 600;
     }
 
 
 
     footer .container .footer_main .subscribe {
-        width: 300px;
+        width: 150px;
     }
     footer .container .footer_main .subscribe p {
         font-size: 14px;
     }
     footer .container .footer_main .subscribe ul li a h5 {
         margin-bottom: 20px;
-        font-size: 25px;
+        font-size: 22px;
         font-weight: 600;
     }
     footer .container .footer_main .subscribe form {
@@ -1055,12 +1055,15 @@
         padding: 7px 10px;
         width: 100%;
     }
+    footer .container .footer_main .subscribe .socila_icon {
+        gap: 15px;
+    }
     footer .container .footer_main .subscribe .socila_icon a {
-        height: 30px;
-        width: 30px;
+        height: 25px;
+        width: 25px;
     }
     footer .container .footer_main .subscribe .socila_icon a i, footer .container .footer_main .subscribe .socila_icon a svg {
-        font-size: 18px;
+        font-size: 15px;
     }
 
 
