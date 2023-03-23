@@ -839,12 +839,10 @@ footer .container .subscribe .socila_icon a:nth-child(3) {
   background: linear-gradient(to top left, #405DE6, #5B51D8, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80);
 }
 footer .container .subscribe .socila_icon a:nth-child(4) {
-  background: red;
   color: #FFF;
 }
 footer .f_copy {
   background: #FF5C00;
-  background: yellow;
   width: 100%;
   margin-top: 80px;
   padding: 10px 0;

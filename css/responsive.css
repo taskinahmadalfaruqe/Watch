@@ -105,14 +105,26 @@
     #banner .container .banner_main .text p{
         padding: 0;
     }
+    #banner .container .banner_main .text button{
+        padding: 0;
+        margin: 0;
+    }
+    #banner .container .banner_main .text button {
+        padding: 0;
+        margin: 0;
+    }
     #banner .container .banner_main .image {
-        padding-left: 0px;
-        transform: none;
-        -webkit-transform: none;
-        -moz-transform: none;
-        -ms-transform: none;
-        -o-transform: none;
+       padding: 0;
+       margin: 0;
+       transform: translateY(20px);
+       -webkit-transform: translateY(20px);
+       -moz-transform: translateY(20px);
+       -ms-transform: translateY(20px);
+       -o-transform: translateY(20px);
 }
+    #banner .container .banner_main .image img{
+      width: 100%;
+    }
     /* BANNER PART END  */
 
     /* ABOUT PART START  */
@@ -195,7 +207,7 @@
 
     /* TOP CATAGORY PART START  */
     #top_catagori {
-        padding: 40px 0;
+        padding: 20px 0;
     }
     #top_catagori .container{
         width: 100%;
@@ -212,11 +224,20 @@
 
     /* TESTIMONIAL PART START  */
     #testimonial{
-        padding: 40PX 0;
+        padding: 0;
         margin: 0;
+        margin-bottom: 010px;
     }
     #testimonial .container{
         width: 100%;
+    }
+    #testimonial .container .common_heading h2 {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 50px;
+        color: #000000;
+        margin: 0 0 20px;
+        text-align: center;
     }
     /* TESTIMONIAL PART END */
 

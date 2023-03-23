@@ -170,7 +170,6 @@ footer {
                             background: linear-gradient(to top left ,#405DE6,#5B51D8,#833AB4,#C13584,#E1306C,#FD1D1D,#F56040, #F77737,#FCAF45,#FFDC80);
                         }
                         &:nth-child(4) {
-                            background: red;
                             color: $White_color;
                         }
                     }
@@ -180,7 +179,6 @@ footer {
 
     .f_copy{
         background: $Primary_color;
-        background: yellow;
         width: 100%;
         margin-top: 80px;
         padding: 10px 0;
