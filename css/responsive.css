@@ -78,7 +78,7 @@
     /* BANNER PART START */
     #banner .container {
        margin: 0;
-       padding: 40px 0;
+       padding: 0px 0;
     }
     #banner .container {
         width: 100%;
@@ -90,20 +90,20 @@
     }
     #banner .container .banner_main .text {
         width: 100%;
-        padding: 15px 15px 15px;
+        padding: 10px;
     }
     #banner .container .banner_main .text .text_main h3 {
-        letter-spacing: 0.7em;
+        letter-spacing: 0.3em;
         line-height: 10px;
     }
     #banner .container .banner_main .text .text_main h1 {
         font-weight: 700;
-        font-size: 55px;
+        font-size: 40px;
         line-height: 70px;
         margin: 20px 0;
     }
     #banner .container .banner_main .text p{
-        padding-right: 60px;
+        padding: 0;
     }
     #banner .container .banner_main .image {
         padding-left: 0px;
@@ -222,26 +222,35 @@
 
     /* PERFECT PART START */
     #perfect {
-        padding: 40px 0;
+        /* padding: 05px 0; */
+        /* background: yellow; */
+        padding: 0;
     }
     #perfect .container{
         width: 100%;
+        padding: 0px 10px;
     }
     #perfect .container .perfect_main {
-        padding: 25px 10px;
+        /* padding: 10px 10px; */
         flex-direction: column;
+        /* background: red; */
+        padding: 0px;
     }
     #perfect .container .perfect_main .image {
-        max-width: 100%;
+        max-width: 90%;
     }
     #perfect .container .perfect_main .text_main {
         width: 100%;
-        margin-top: 50px;
+        margin-top: 30px;
         text-align: center;
+        /* margin: 0; */
     }
     #perfect .container .perfect_main .text_main .common_heading h2 {
         text-align: center;
-        padding: 0;
+        padding: 0 5px;
+        /* margin: 0; */
+        font-size: 30px;
+        line-height: 1.2;
     }
     #perfect .container .perfect_main .text_main .common_heading p {
         text-align: center;
@@ -273,59 +282,65 @@
     }
     footer .container .footer_main {
         flex-wrap: wrap;
-        gap: 25px;
+        gap: 10px;
         justify-content: space-between;
+        /* background: yellow; */
+        justify-content: center;
     }
     footer .container .footer_main .f_icon {
-        width: 150px;
+        width: 130px;
     }
     footer .container .footer_main .f_icon .image {
         width: 50%;
         padding: 0;
     }
     footer .container .footer_main .f_icon .text p {
-        font-size: 14px;
+        font-size: 12px;
         padding-right: 0;
     }
     footer .container .footer_main .f_icon .text .contect ul li {
-        font-size: 14px;
+        font-size: 10px;
     }
     footer .container .footer_main .f_icon .text .contect ul li a{
         line-break: anywhere;
         line-height: 1.1em;
+        font-size: 12px;
     }
 
     footer .container .footer_main .info {
-        width: 150px;
+        width: 130px;
     }
     footer .container .footer_main .info ul li a h5 {
-        margin-bottom: 20px;
-        font-size: 22px;
+        margin-bottom: 15px;
+        font-size: 17px;
         font-weight: 600;
     }
 
 
 
     footer .container .footer_main .help {
-        width: 150px;
+        width: 130px;
+    }
+    footer .container .footer_main .help ul li a {
+        font-size: 12px;
     }
     footer .container .footer_main .help ul li a h5 {
-        margin-bottom: 20px;
-        font-size: 22px;
+        margin-bottom: 15px;
+        font-size: 17px;
         font-weight: 600;
     }
 
 
 
     footer .container .footer_main .subscribe {
-        width: 150px;
+        width: 130px;
     }
     footer .container .footer_main .subscribe p {
-        font-size: 14px;
+        font-size: 12px;
     }
     footer .container .footer_main .subscribe ul li a h5 {
-        margin-bottom: 20px;
-        font-size: 22px;
+        margin-bottom: 15px;
+        font-size: 17px;
         font-weight: 600;
     }
     footer .container .footer_main .subscribe form {
@@ -335,21 +350,31 @@
         padding: 7px 10px;
         width: 100%;
     }
+    footer .container .footer_main .subscribe .socila_icon {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
     footer .container .footer_main .subscribe .socila_icon a {
-        height: 25px;
-        width: 25px;
+        height: 35px;
+        width: 35px;
     }
     footer .container .footer_main .subscribe .socila_icon a i, footer .container .footer_main .subscribe .socila_icon a svg {
-        font-size: 15px;
+        font-size: 25px;
     }
 
 
     footer .f_copy {
         margin-top: 40px;
     }
+    footer .f_copy .f_icon_main {
+        display: flex;
+        flex-direction: column-reverse;
+    }
     footer .f_copy .container .f_icon_main .text {
         /* background: red; */
-        width: 35%;
+        width: 100%;
+        margin-top: 10px;
     }
     footer .f_copy .container .f_icon_main .text p {
         font-size: 14px;
@@ -357,11 +382,11 @@
     }
     footer .f_copy .container .f_icon_main .icon {
         /* background: red; */
-        width: 65%;
+        width: 100%;
         gap: 15px;
     }
     footer .f_copy .container .f_icon_main .icon .image {
-        width: 37px;
+        width: 50px;
     }
     /* FOOTER PART END */
 }

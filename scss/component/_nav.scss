@@ -46,7 +46,7 @@ nav{
             }
             button{
                 a{
-                    @include common_btn($White_color , $Primary_color)
+                    @include common_btn($White_color , $Primary_color);
                 }
             }
         }

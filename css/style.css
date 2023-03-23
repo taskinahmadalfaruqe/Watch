@@ -33,6 +33,7 @@ img {
 .container {
   width: 1170px;
   margin: 0 auto;
+  padding: 10px;
 }
 
 .common_heading {
@@ -198,6 +199,10 @@ nav .container .nav_bar .bars i {
   -o-transform: translateY(50px);
   padding-left: 70px;
 }
+#banner .container .banner_main .image img {
+  width: 200%;
+}
+
 #about {
   background: #FFF;
   padding: 70px 0;
@@ -679,7 +684,7 @@ footer .container .footer_main .f_icon .text .contect ul li {
   display: -ms-flexbox;
   display: flex;
 }
-footer .container .footer_main .f_icon .text .contect ul li a {
+footer .container .footer_main .f_icon .text .contect ul a {
   font-family: "Inter", sans-serif;
   color: #FFF;
   font-weight: 400;
@@ -687,15 +692,15 @@ footer .container .footer_main .f_icon .text .contect ul li a {
   line-height: 19px;
   margin-bottom: 10px;
 }
-footer .container .footer_main .info {
+footer .container .info {
   width: 300px;
 }
-footer .container .footer_main .info ul li {
+footer .container .info ul li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-footer .container .footer_main .info ul li a {
+footer .container .info ul li a {
   font-family: "Inter", sans-serif;
   color: #FFF;
   font-weight: 400;
@@ -703,7 +708,7 @@ footer .container .footer_main .info ul li a {
   line-height: 19px;
   margin-bottom: 15px;
 }
-footer .container .footer_main .info ul li a h5 {
+footer .container .info ul li a h5 {
   font-family: "Inter", sans-serif;
   color: #FFF;
   font-weight: 400;
@@ -711,15 +716,15 @@ footer .container .footer_main .info ul li a h5 {
   line-height: 19px;
   margin-bottom: 50px;
 }
-footer .container .footer_main .help {
+footer .container .help {
   width: 300px;
 }
-footer .container .footer_main .help ul li {
+footer .container .help ul li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-footer .container .footer_main .help ul li a {
+footer .container .help ul li a {
   font-family: "Inter", sans-serif;
   color: #FFF;
   font-weight: 400;
@@ -727,7 +732,7 @@ footer .container .footer_main .help ul li a {
   line-height: 19px;
   margin-bottom: 15px;
 }
-footer .container .footer_main .help ul li a h5 {
+footer .container .help ul li a h5 {
   font-family: "Inter", sans-serif;
   color: #FFF;
   font-weight: 400;
@@ -735,15 +740,15 @@ footer .container .footer_main .help ul li a h5 {
   line-height: 19px;
   margin-bottom: 50px;
 }
-footer .container .footer_main .subscribe {
+footer .container .subscribe {
   width: 300px;
 }
-footer .container .footer_main .subscribe ul li {
+footer .container .subscribe ul li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-footer .container .footer_main .subscribe ul li a h5 {
+footer .container .subscribe ul li a h5 {
   font-family: "Inter", sans-serif;
   color: #FFF;
   font-weight: 400;
@@ -751,7 +756,7 @@ footer .container .footer_main .subscribe ul li a h5 {
   line-height: 19px;
   margin-bottom: 50px;
 }
-footer .container .footer_main .subscribe p {
+footer .container .subscribe p {
   font-family: "Inter", sans-serif;
   color: #FFF;
   font-weight: 400;
@@ -759,34 +764,34 @@ footer .container .footer_main .subscribe p {
   line-height: 19px;
   margin-bottom: 20px;
 }
-footer .container .footer_main .subscribe form {
+footer .container .subscribe form {
   margin-bottom: 40px;
 }
-footer .container .footer_main .subscribe form input {
+footer .container .subscribe form input {
   padding: 15px 20px;
   width: 100%;
 }
-footer .container .footer_main .subscribe form input::-webkit-input-placeholder {
+footer .container .subscribe form input::-webkit-input-placeholder {
   color: #FF5C00;
   font-size: 15px;
 }
-footer .container .footer_main .subscribe form input::-moz-placeholder {
+footer .container .subscribe form input::-moz-placeholder {
   color: #FF5C00;
   font-size: 15px;
 }
-footer .container .footer_main .subscribe form input:-ms-input-placeholder {
+footer .container .subscribe form input:-ms-input-placeholder {
   color: #FF5C00;
   font-size: 15px;
 }
-footer .container .footer_main .subscribe form input::-ms-input-placeholder {
+footer .container .subscribe form input::-ms-input-placeholder {
   color: #FF5C00;
   font-size: 15px;
 }
-footer .container .footer_main .subscribe form input::placeholder {
+footer .container .subscribe form input::placeholder {
   color: #FF5C00;
   font-size: 15px;
 }
-footer .container .footer_main .subscribe .socila_icon {
+footer .container .subscribe .socila_icon {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -798,7 +803,7 @@ footer .container .footer_main .subscribe .socila_icon {
           align-items: center;
   gap: 20px;
 }
-footer .container .footer_main .subscribe .socila_icon a {
+footer .container .subscribe .socila_icon a {
   height: 50px;
   width: 50px;
   border-radius: 50%;
@@ -816,29 +821,30 @@ footer .container .footer_main .subscribe .socila_icon a {
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
 }
-footer .container .footer_main .subscribe .socila_icon a i,
-footer .container .footer_main .subscribe .socila_icon a svg {
+footer .container .subscribe .socila_icon a i,
+footer .container .subscribe .socila_icon a svg {
   font-size: 30px;
 }
-footer .container .footer_main .subscribe .socila_icon a:nth-child(1) {
+footer .container .subscribe .socila_icon a:nth-child(1) {
   background: blue;
   color: #FFF;
 }
-footer .container .footer_main .subscribe .socila_icon a:nth-child(2) {
+footer .container .subscribe .socila_icon a:nth-child(2) {
   background: rgb(5, 181, 194);
   color: #FFF;
 }
-footer .container .footer_main .subscribe .socila_icon a:nth-child(3) {
+footer .container .subscribe .socila_icon a:nth-child(3) {
   color: #FFF;
   background: -webkit-gradient(linear, right bottom, left top, from(#405DE6), color-stop(#5B51D8), color-stop(#833AB4), color-stop(#C13584), color-stop(#E1306C), color-stop(#FD1D1D), color-stop(#F56040), color-stop(#F77737), color-stop(#FCAF45), to(#FFDC80));
   background: linear-gradient(to top left, #405DE6, #5B51D8, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80);
 }
-footer .container .footer_main .subscribe .socila_icon a:nth-child(4) {
+footer .container .subscribe .socila_icon a:nth-child(4) {
   background: red;
   color: #FFF;
 }
 footer .f_copy {
   background: #FF5C00;
+  background: yellow;
   width: 100%;
   margin-top: 80px;
   padding: 10px 0;
@@ -891,4 +897,4 @@ footer .f_copy .container .f_icon_main .icon .image {
 }
 footer .f_copy .container .f_icon_main .icon .image .img {
   width: 80%;
-}/*# sourceMappingURL=style.css.map */
+}

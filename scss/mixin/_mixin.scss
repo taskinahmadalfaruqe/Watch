@@ -1,3 +1,4 @@
+@import'../variable/variable';
 @mixin common_btn($bg, $color){
     padding: 18px 32px;
     border: 2px solid $Heading_color;
@@ -5,6 +6,10 @@
     font-weight: 700;
     font-size: 20px;
     line-height: 100%;
+    background: $bg;
+    color: $color;
+};
+@mixin common_btn_hover($bg, $color){
     background: $bg;
     color: $color;
 };

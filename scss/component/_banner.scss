@@ -38,7 +38,7 @@
                }
                button{ 
                 a{
-                    @include common_btn( $Primary_color , $White_color)
+                    @include common_btn( $Primary_color , $White_color);
                 }
                }
             }
@@ -52,6 +52,7 @@
                 // background: red;
                 padding-left: 70px;
                 img{
+                    width: 200%;
                 }
             }
         }

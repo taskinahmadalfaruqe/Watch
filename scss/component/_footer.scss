@@ -36,6 +36,7 @@ footer {
                                 line-height: 19px;
                                 margin-bottom: 10px;
                                 display: flex;
+                                }
                                 a {
                                     font-family: $ff;
                                     color: $White_color;
@@ -176,9 +177,10 @@ footer {
                 }
             }
         }
-    }
+
     .f_copy{
         background: $Primary_color;
+        background: yellow;
         width: 100%;
         margin-top: 80px;
         padding: 10px 0;
