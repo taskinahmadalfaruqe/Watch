@@ -192,15 +192,15 @@ nav .container .nav_bar .bars i {
 }
 #banner .container .banner_main .image {
   width: 50%;
-  transform: translateY(50px);
-  -webkit-transform: translateY(50px);
-  -moz-transform: translateY(50px);
-  -ms-transform: translateY(50px);
-  -o-transform: translateY(50px);
+  transform: translateY(60px);
+  -webkit-transform: translateY(60px);
+  -moz-transform: translateY(60px);
+  -ms-transform: translateY(60px);
+  -o-transform: translateY(60px);
   padding-left: 70px;
 }
 #banner .container .banner_main .image img {
-  width: 200%;
+  width: 100%;
 }
 
 #about {
